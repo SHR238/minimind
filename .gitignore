@@ -1,6 +1,9 @@
 __pycache__/
 *.pyc
 .DS_Store
+.vscode/
 out
 website/
 docs-minimind/
+# dataset 已替换为指向 /mnt/hdd/minimind/dataset 的软链接，不纳入版本控制
+dataset
