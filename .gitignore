@@ -7,3 +7,8 @@ website/
 docs-minimind/
 # dataset 已替换为指向 /mnt/hdd/minimind/dataset 的软链接，不纳入版本控制
 dataset
+# 训练产出的 checkpoint 权重（trainer/*.py 的 save_dir）
+checkpoints
+# HF 格式模型目录：既是 huggingface.co/jingyaogong/minimind-3 的克隆，
+# 也是 scripts/convert_model.py 的输出目标，自带独立 .git，不作为 submodule
+minimind-3
